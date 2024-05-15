@@ -44,6 +44,4 @@ jobs:
           respect-pom-xml: true
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BE248CEAC5B243849713ACF559BC7CE1 }}
       - name: Enable debug logging
-        run: echo "Debug logging enabled"
-        env:
-          ACTIONS_RUNNER_DEBUG: true
+       
